@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Add transition for smooth color changes */
+body {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Define dark mode classes */
+:root {
+  --background-light: #ffffff;
+  --text-light: #969696;
+  --background-dark: #696969;
+  --text-dark: #ffffff;
+}
+
+/* You can add more custom dark mode styles here */
+.dark {
+  background-color: var(--background-dark);
+  color: var(--text-dark);
+}
+
+.light {
+  background-color: var(--background-light);
+  color: var(--text-light);
+}
