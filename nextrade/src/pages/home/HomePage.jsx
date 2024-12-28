@@ -11,12 +11,12 @@ import Loader from '../../components/loader/Loader'
 const HomePage = () => {
   return (
     <Layout>
+      <Loader/>
       <HeroSection/>
       <Category/>
       <HomePageProductCard/>
       <Track/>
       <Testimoniaal/>
-      <Loader/>
     </Layout>
   )
 }

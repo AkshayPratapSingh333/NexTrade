@@ -65,7 +65,7 @@ function MyState({ children }) {
     }
     
 
-    // Delete oder Function
+    // Delete order Function
     const deleteProduct = async (id) => {
         setLoading(true)
         try {

@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { FaInstagram, FaLinkedin, FaYoutube, FaEnvelope, FaHeart } from 'react-icons/fa'; // Import React Icons
 import { BsTwitterX } from 'react-icons/bs';
-import logo from '../../assets/images/logo.png'; // Update the path to your logo image
+
 
 const Footer = () => {
     return (
